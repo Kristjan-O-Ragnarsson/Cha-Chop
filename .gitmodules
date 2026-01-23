@@ -1,3 +1,7 @@
 [submodule "wolfssl"]
 	path = wolfssl
 	url = https://github.com/wolfSSL/wolfssl.git
+	branch = 1c56a2674a5ef51c
+[submodule "TestCrypt-cil"]
+	path = TestCrypt-cil
+	url = https://github.com/Kristjan-O-Ragnarsson/TestCrypt-cil
