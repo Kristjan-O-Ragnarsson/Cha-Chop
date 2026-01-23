@@ -36,9 +36,29 @@ cd ..
 ./install.sh
 ```
 
+### Building TestCrypt-cli
+
+Requirements
+- `go`
+```bash
+cd testcrypt-cli
+
+go build
+```
+
+
 ## Usage
+
+### Running preliminary tests (Bash scripts):
 ```shell
 ./test.sh
 
 ./mem-test.sh
+```
+
+### Running TestCrypt-cli
+```shell
+cd testcrypt-cli
+
+./TestCryptLinux -r 100000 -path "$(cd .. && pwd)"
 ```
