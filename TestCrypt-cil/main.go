@@ -23,11 +23,14 @@ func main() {
 	}
 
 	binaryPath := fmt.Sprintf("%s/%s", *path, *binaryName)
-	var inputs = [4]string{ // TODO some modular/configurable way to do input
+	var inputs = [7]string{ // TODO some modular/configurable way to do input
 		fmt.Sprintf("%s/text/28.txt", *path),
 		fmt.Sprintf("%s/text/56.txt", *path),
 		fmt.Sprintf("%s/text/112.txt", *path),
 		fmt.Sprintf("%s/text/224.txt", *path),
+		fmt.Sprintf("%s/text/448.txt", *path),
+        fmt.Sprintf("%s/text/896.txt", *path),
+        fmt.Sprintf("%s/text/1792.txt", *path),
 	}
 
 	allOutputs := make(map[string]map[int][]string)
