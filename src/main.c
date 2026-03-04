@@ -122,7 +122,7 @@ void split_message(
 
 int main() {
     //const unsigned char plaintext[] = "Hello, wolfSSL!";
-    char buffer[1024];
+    char buffer[2048];//1024
 	const unsigned char *plaintext;
     unsigned char tag[TAG_SIZE];
     unsigned char *message;
@@ -191,7 +191,7 @@ int main() {
 	fclose(f);*/
 
 
-    char buffer_two[1024];
+    char buffer_two[2048];//1024
     const unsigned char *data;
     //size_t ciphertext_len = 0;
 
