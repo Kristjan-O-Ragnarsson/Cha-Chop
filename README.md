@@ -62,3 +62,18 @@ cd testcrypt-cli
 
 ./TestCryptLinux -r 100000 -path "$(cd .. && pwd)"
 ```
+
+## Citation
+
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@inprocedin{Ragnarsson2026IoTBDS,
+    title     = {Performance Testing of ChaCha20-Poly1305 for Internet of Things and Industrial Control System Devices},
+    booktitle = {11th International Conference on Internet of Things, Big Data and Security (IoTBDS 2026)},
+    author    = {Ragnarsson, Kristjan Orri and Mallett, Jacky},
+    year      = 2026,
+}
+```
+
+Pre-print avaliable (Submitted Manuscript): https://arxiv.org/abs/2603.19150
