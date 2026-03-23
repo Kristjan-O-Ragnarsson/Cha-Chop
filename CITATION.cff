@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Cha-Chop
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Kristján Orri
+    family-names: Ragnarsson
+    orcid: 'https://orcid.org/0009-0000-6377-3113'
+    affiliation: Reykjavik University
+repository-code: 'https://github.com/Kristjan-O-Ragnarsson/Cha-Chop'
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Ragnarsson
+    given-names: Kristján Orri
+    orcid: 'https://orcid.org/0009-0000-6377-3113'
+  - family-names: Mallett
+    given-names: Jacky
+    orcid: 'https://orcid.org/0000-0003-1370-996X'
+  title: 'Performance Testing of ChaCha20-Poly1305 for Internet of Things and Industrial Control System devices'
